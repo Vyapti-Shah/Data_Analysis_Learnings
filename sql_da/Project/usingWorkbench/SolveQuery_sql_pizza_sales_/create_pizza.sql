@@ -1,0 +1,19 @@
+#create database pizzahut;
+
+#create table orders(
+#order_id int not null,
+#order_date date not null,
+#order_time time not null,
+#primary key(order_id));
+
+select * from pizzahut.pizzas;
+select * from pizzahut.pizza_types;
+select * from pizzahut.orders;
+select * from pizzahut.orders_details;
+
+
+#create table orders_details(
+#order_details_id int not null,
+#order_id int not null,
+#pizza_id text not null,
+#primary key(order_details_id));
