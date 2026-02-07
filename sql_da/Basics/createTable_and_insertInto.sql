@@ -1,0 +1,37 @@
+--Table 1 Query:
+--create table EmployeeDemographics
+--(EmployeeID int,
+--FirstName varchar(50),
+--LastName varchar(50),
+--Age int,
+--Gender varchar(50))
+
+--Table 2 Query:
+--create table EmployeeSalary
+--(EmployeeID int,
+-- JobTitle varchar(50),
+-- Salary int)
+
+--Table 1 Insert:
+--insert into EmployeeDemographics values
+--(1001, 'Vyapti', 'Shah', 28, 'Female'),
+--(1002, 'Vaishnavi', 'Shetty', 29, 'Female'),
+--(1003, 'Sanjay', 'Shah', 35, 'Male'),
+--(1004, 'Sejal', 'Shah', 31, 'Female'),
+--(1005, 'Tirth', 'Sanhgavi', 32, 'Male'),
+--(1006, 'Aayush', 'Sheth', 35, 'Male'),
+--(1007, 'Shalmalee', 'Thakur', 32, 'Female'),
+--(1008, 'Jayantilal', 'Shah', 40, 'Male'),
+--(1009, 'Jinit', 'Vora', 31, 'Male')
+
+--Table 2 Insert:
+--Insert Into EmployeeSalary VALUES
+--(1001, 'Owner', 10000000),
+--(1002, 'Receptionist', 36000),
+--(1003, 'CEO', 800000),
+--(1004, 'HR', 300000),
+--(1005, 'Salesman', 50000),
+--(1006, 'Regional Manager', 65000),
+--(1007, 'Supplier Relations', 41000),
+--(1008, 'Salesman', 48000),
+--(1009, 'Accountant', 42000)
